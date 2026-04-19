@@ -1,0 +1,6 @@
+path: D:/Helmet_Detection/Helmet_Detection_YOLO
+train: images/train
+val:   images/val
+
+nc: 2
+names: ['With Helmet', 'Without Helmet']

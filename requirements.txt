@@ -1,0 +1,21 @@
+# requirements.txt
+# FLIR Thermal Object Detection with YOLOv8
+# Python 3.11.9
+
+# ── Core Computer Vision ──────────────────────────────────────────────
+opencv-contrib-python
+numpy
+matplotlib
+pillow
+scipy
+scikit-image
+
+# ── Deep Learning ─────────────────────────────────────────────────────
+# NOTE: Install PyTorch separately using the command below
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+ultralytics
+
+# ── Data Handling ─────────────────────────────────────────────────────
+pandas
+tifffile
+pycocotools
